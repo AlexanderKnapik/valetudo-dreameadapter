@@ -1,0 +1,222 @@
+(footprint "SW_Push_SPST_NO_Alps_SKRP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://tech.alpsalpine.com/e/products/detail/SKRPAKE010/")
+	(tags "SMD SMT button")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6c47c200-1b68-4f15-8a60-58e5647127a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push_SPST_NO_Alps_SKRP"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "f986b248-cc1f-44a5-9790-ffff301168f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b65617be-f753-4c25-a94b-b1eecf19ca60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33399910-b449-478a-a454-58431276a980")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.42 -1.72)
+		(end 2.42 -1.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a94e8ef-fad6-4ac2-95dc-a0d5a29722a2")
+	)
+	(fp_line
+		(start -2.42 1.72)
+		(end 2.42 1.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88533d43-8651-4a77-bbf6-fb161a3a7120")
+	)
+	(fp_circle
+		(center -2.8 -2)
+		(end -2.6 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8c8ecc12-f1b5-4c67-bba9-2879057d3e54")
+	)
+	(fp_rect
+		(start -2.925 -1.85)
+		(end 2.925 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a527b867-1686-4811-a0e3-3898a6626355")
+	)
+	(fp_line
+		(start -2.3 -1.6)
+		(end 2.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed383259-715a-4875-acc1-c244a9716b0a")
+	)
+	(fp_line
+		(start -2.3 1.6)
+		(end -2.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bbe3b6e9-e6ad-4f5a-a9af-fe6224086b5c")
+	)
+	(fp_line
+		(start -0.4 1.1)
+		(end 0.4 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "90a5fefe-cdfd-481a-ba72-10af83871770")
+	)
+	(fp_line
+		(start 0.4 -1.1)
+		(end -0.4 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4c2d19de-6753-4ab5-b631-9b4d98eb6fb8")
+	)
+	(fp_line
+		(start 2.3 -1.6)
+		(end 2.3 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e5662246-3168-4112-a574-ad4b3b625fc4")
+	)
+	(fp_line
+		(start 2.3 1.6)
+		(end -2.3 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "27ab96c7-2104-4e50-9089-fc9be058c694")
+	)
+	(fp_arc
+		(start -0.4 1.1)
+		(mid -1.5 0)
+		(end -0.4 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1490ead4-3dda-4535-ae26-6202d8e3264b")
+	)
+	(fp_arc
+		(start 0.4 -1.1)
+		(mid 1.5 0)
+		(end 0.4 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "66bf9afa-eeb0-449b-8b7e-2b2ec7df111b")
+	)
+	(pad "1" smd roundrect
+		(at -2.075 -1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "94b3b5d7-72fe-4273-9eef-732d7927f808")
+	)
+	(pad "1" smd roundrect
+		(at 2.075 -1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d35ea70a-33ac-4b0d-ad8d-d8d9686a9d49")
+	)
+	(pad "2" smd roundrect
+		(at -2.075 1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "66bf389a-8a0e-4bf1-b0a4-e25d85f8424d")
+	)
+	(pad "2" smd roundrect
+		(at 2.075 1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "f5e31b23-0495-4f48-aef8-4240105e5d99")
+	)
+	(embedded_fonts no)
+	(model "/home/alex/Workspace/DivaConGold/pcb/3d/SKRPAB.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
